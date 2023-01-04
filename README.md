@@ -1,9 +1,13 @@
 # This program uses a genetic algorithm that solves the 8-queens problem
 
 The program will start by creating PopulationSize random members of the population (including a computation of the fitness function for each one). The program will loop iteratively NumIterations times, performing the following functions:
+
 • Randomly select pairs of parents to breed. 
+
 • Pick a random spot for crossover, and breed two new children (with fitness computed). 
+
 • Randomly decide whether to mutate based on MutationPct, and if so, mutate one gene. 
+
 • Generate a sufficient number of children to keep the population size constant.
 
 
